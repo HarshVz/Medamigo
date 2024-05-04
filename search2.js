@@ -4,7 +4,7 @@ function searchPage(){
 
         try {
 
-            const response = await fetch('meds2.json');
+            const response = await fetch('meds4.json');
             const data = await response.json();
             return data;
             // const response = await fetch('meds.json');
